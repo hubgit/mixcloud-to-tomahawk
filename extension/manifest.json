@@ -1,0 +1,12 @@
+{
+  "name": "Link Mixcloud to Tomahawk",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Add Tomahawk links to tracks on mixcloud.com pages.",
+  "content_scripts" : [
+    {
+      "matches" : ["http://www.mixcloud.com/*"],
+      "js" : ["script.js"]
+    }
+  ]
+}
